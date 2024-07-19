@@ -1,0 +1,201 @@
+body {
+    background-image: url(SUP.png), linear-gradient(rgb(0, 132, 255), rgb(0, 89, 255));
+    background-repeat: no-repeat ,no-repeat;
+    background-size: 500px, 100%;
+    background-position: -1000px, left top;
+    background-position: 900px 40px, left top;
+    
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar {
+    list-style-position: none;
+    margin: 0 0px;
+    padding: 0;
+    margin-bottom: -30px;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    float: right;
+}
+
+li a {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    -webkit-transition-duration: 0.4s;
+}
+
+ki {
+    display: inline;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+}
+
+ki a:hover {
+    color: white;
+    -webkit-transition-duration: 0.4s;
+}
+
+ki a {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+h1 {
+    color: white;
+    padding: 120px 100px;
+    padding-bottom: 0px;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+h2 {
+    color: white;
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+ji {
+    margin-left: 98px;
+    background-color: white;
+    border: 0px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    -webkit-transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+ji:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ji a {
+    text-decoration: none;
+    
+    
+}
+
+ji2 {
+    margin-left: 10px;
+    background-color: white;
+    border: 0px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    -webkit-transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+ji2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ji2 a {
+    text-decoration: none;
+    
+}
+
+
+
+h3 {
+    color: black;
+    
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.page {
+    background-color: white;
+    width: 1300px;
+    border: 15px solid green;
+    padding: 50px;
+    border: solid 0px black;
+    margin-top: 42px;
+    margin-left: 97.7px;
+    box-shadow: rgba(0,0,0,0.44),0 17px 100px 0 rgba(0,0,0,0.29);
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    -webkit-transition-duration: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+
+
+
